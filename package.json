@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.2.1",
+    "@nuxt/ui": "^2.15.2",
+    "firebase": "^10.11.0",
+    "nuxt": "^3.11.2",
+    "openai": "^4.8.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0"
+  }
+}
